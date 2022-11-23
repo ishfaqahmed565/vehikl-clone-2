@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+    box-sizing: border-box;
+  }
+  .primary-bg{
+    background: linear-gradient(180deg, rgba(17,24,39,1) 57%, rgba(23,31,47,1) 86%);
+  }
+  .padding-x{
+    padding-left: 1rem;
+    padding-right:1rem;
+  }
+  .gray-border{
+    border:1px solid rgb(31 41 55);
+    border-radius:7px;
+  }
+  .paragraphStyle {
+    font-size: 1rem; /* 18px */
+    line-height: 1.6rem; /* 28px */
+    color:rgb(156 163 175);
+    
+  }
+  .nuxt-link-active  {
+    color: #dd5f13;
+    border-color:#dd5f13 ;
+  }
+  
+.bg-none{
+    background: none;
+}
