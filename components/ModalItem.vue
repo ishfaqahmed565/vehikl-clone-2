@@ -5,7 +5,7 @@ defineProps({
 </script>
 <template>
   <Transition name="wrapper">
-    <div v-if="show" class="modal-mask bg-gray-900 bg-opacity-90 opacity-[.9]">
+    <div v-if="show" class="modal-mask bg-black bg-opacity-90 opacity-[.9]">
       <SectionContainer class="background-none">
         <ul class="py-[4.5rem] grid gap-5">
           <li class="grid gap-5">
