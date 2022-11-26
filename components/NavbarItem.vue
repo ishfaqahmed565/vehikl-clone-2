@@ -4,7 +4,7 @@ const showClose = ref(false)
 </script>
 <template>
   <div
-    class="bg-gray-900 border-b-[2px] border-gray-800 shadow-xl text-gray-200 padding-x sticky"
+    class="bg-black border-b-[2px] border-gray-800 shadow-xl text-gray-200 padding-x sticky"
   >
     <nav class="max-w-6xl h-20 container mx-auto flex items-center">
       <div class="left mr-auto">

@@ -26,7 +26,7 @@
         <InfoHeader>The 3 roles are</InfoHeader>
         <div class="grid lg:grid-cols-3 gap-4 lg:gap-8">
           <div
-            class="grid gap-2 p-5 gray-border items-center justify-center bg-gradient-to-t from-gray-800 border border-gray-800 to-gray-900"
+            class="grid gap-2 p-5 gray-border items-center justify-center bg-gradient-to-t from-black/[.96] to-black hover:bg-white border border-gray-800"
           >
             <InfoHeader class="items-center text-lg lg:text-lg"
               >Navigator</InfoHeader
@@ -37,7 +37,7 @@
             </div>
           </div>
           <div
-            class="grid gap-2 p-5 gray-border items-center justify-center bg-gradient-to-t from-gray-800 border border-gray-800 to-gray-900"
+            class="grid gap-2 p-5 gray-border items-center justify-center bg-gradient-to-t from-black/[.96] to-black hover:bg-white border border-gray-800"
           >
             <InfoHeader class="items-center text-lg lg:text-lg"
               >Driver</InfoHeader
@@ -48,7 +48,7 @@
             </div>
           </div>
           <div
-            class="grid gap-2 p-5 gray-border items-center justify-center bg-gradient-to-t from-gray-800 border border-gray-800 to-gray-900"
+            class="grid gap-2 p-5 gray-border items-center justify-center bg-gradient-to-t from-black/[.96] to-black hover:bg-white border border-gray-800"
           >
             <InfoHeader class="items-center text-lg lg:text-lg"
               >Navigator</InfoHeader

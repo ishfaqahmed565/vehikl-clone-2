@@ -10,7 +10,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        brand: '#dd5f13',
+        brand: '#FF0101',
+        grayBorder: 'rgb(31 41 55)',
       },
       fontFamily: {
         inter: ['inter'],

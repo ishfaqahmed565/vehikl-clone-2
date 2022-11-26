@@ -15,14 +15,14 @@ watchEffect(async () => {
 </script>
 <template>
   <div
-    class="relative banner ocerflow-hidden min-h-[40vh] bg-gradient-to-t from-gray-900 via-gray-800/[.70] to-gray-800/[.70]"
+    class="relative banner ocerflow-hidden min-h-[40vh] bg-gradient-to-t from-black via-black/[.80] to-black/[.80]"
   >
     <div class="h-full w-full absolute -z-10">
       <img :src="src" class="w-full h-full object-cover" alt="" />
     </div>
 
     <SectionContainer
-      class="py-[3rem] lg:py-[2.8rem] absolute relative z-10 bg-none"
+      class="pt-[5rem] lg:pt-[3.8rem] pb-[5rem] lg:pb-[3.8rem] absolute relative z-10 bg-none"
     >
       <div class="grid gap-5">
         <h2 class="text-4xl lg:text-5xl font-semibold">

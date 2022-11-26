@@ -1,5 +1,5 @@
 <template>
-  <CenterDes extraStyle="pb-20 lg:pb-20 py-0 lg:py-0 ">
+  <CenterDes extraStyle="pb-20 lg:pb-20 py-5 lg:py-10 ">
     <template #header>Our Process </template>
     <template #paragraph
       >We provide a caring environment that enables our team to focus on growth,
@@ -8,7 +8,7 @@
     <div class="grid lg:grid-cols-3 gap-4 lg:gap-8 mt-32">
       <a
         href="#caring"
-        class="grid gap-2 p-5 gray-border items-center justify-center bg-gray-900 hover:bg-gray-800"
+        class="grid gap-2 p-5 gray-border items-center justify-center bg-gradient-to-t from-black/[.96] to-black hover:bg-white"
       >
         <InfoHeader class="items-center">Caring</InfoHeader>
 
@@ -18,7 +18,7 @@
       </a>
       <a
         href="#growth"
-        class="grid gap-2 p-5 gray-border items-center justify-center bg-gray-900 hover:bg-gray-800"
+        class="grid gap-2 p-5 gray-border items-center justify-center bg-gradient-to-t from-black/[.96] to-black hover:bg-white"
       >
         <InfoHeader class="items-center">Growth</InfoHeader>
 
@@ -28,7 +28,7 @@
       </a>
       <a
         href="#growth"
-        class="grid gap-2 p-5 gray-border items-center justify-center bg-gray-900 hover:bg-gray-800"
+        class="grid gap-2 p-5 gray-border items-center justify-center bg-gradient-to-t from-black/[.96] to-black hover:bg-white"
       >
         <InfoHeader class="items-center">Delivery</InfoHeader>
 

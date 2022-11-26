@@ -8,9 +8,9 @@
         then apply today to join our fast growing team!
       </template>
     </BannerSec>
-    <SectionContainer class="pt-0 lg:pt-0 bg-gray-900">
+    <SectionContainer class="py-5 lg:py-10">
       <div
-        class="p-4 lg:p-8 bg-gradient-to-t from-gray-800 border border-gray-800 to-gray-900 border-gray rounded-lg"
+        class="p-4 lg:p-8 bg-gradient-to-t from-black/[.96] to-black border border-gray-800 border-gray rounded-lg"
       >
         <div class="grid gap-5">
           <InfoHeader>Developer</InfoHeader>
