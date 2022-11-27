@@ -57,7 +57,5 @@ export default {
         autoprefixer: {},
       },
     },
-    extractCss: true,
-    optimizeCSS: false,
   },
 }
