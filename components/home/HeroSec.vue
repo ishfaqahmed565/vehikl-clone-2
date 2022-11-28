@@ -1,28 +1,61 @@
-<script setup>
-import ButtonItem from '@/components/ButtonItem.vue'
-</script>
+<script setup></script>
 <template>
-  <div class="flex items-center max-h-[75vh] overflow-y-hidden relative">
+  <div
+    class="flex items-center max-h-[90vh] overflow-y-hidden relative overflow-x-clip"
+  >
     <img
-      src="~/assets/candid-4.webp"
+      src="~/assets/candid-9.png"
       alt=""
-      class="w-full object-cover min-h-[75vh] border-b-[2px] border-gray-800"
+      class="w-full object-cover min-h-[90vh] invert"
     />
     <div
-      class="absolute w-full flex items-center justify-center flex-col bg-gray-900 h-full bg-opacity-60"
+      class="absolute bg-gradient-to-t from-black via-gray-900/[.70] to-transparent w-full grid items-center justify-center bg-gray-900 h-full bg-opacity-60"
     >
-      <div class="text-center max-w-[75ch] flex flex-col items-center">
-        <h1 class="text-white font-bold mb-10">
-          <div class="text-3xl lg:text-4xl mb-4 text-gray-400">
-            We build <span class="text-brand">exceptional</span>
+      <ContSec>
+        <div
+          class="relative lg:static z-50 lg:grid lg:grid-cols-2 items-center justify-center"
+        >
+          <div class="description text-center lg:text-start grid gap-8">
+            <h1
+              class="text-white text-2xl lg:text-3xl uppercase leading-8 lg:leading-10"
+            >
+              SIGMA SOLUTIONS <br />
+              <span class="text-brand text-3xl lg:text-4xl"
+                >Implementing excellence</span
+              ><br />
+              Innovative Concept
+            </h1>
+            <p class="text-base lg:text-lg font-thin text-white">
+              Sigma Solutions is a research and software develop firm that work
+              on overcoming most critical challenges and identified problems in
+              Bangladesh. Team work is our main strength. Our confronting
+              approach of problem solving helped us overcome all the critical
+              hurdles. Sigma Solutions is specialized in Natural Language
+              Processing (NLP), Machine Learning (ML), Artificial Intelligence
+              (AI) and GSM & Telecom solutions.
+            </p>
+            <ButtonItem class="mx-auto lg:mx-0">Work with us</ButtonItem>
           </div>
-          <span class="text-5xl lg:text-7xl text-gray-200"
-            >Web and Mobile Applications</span
+          <div
+            class="w-[400px] md:w-[450px] lg:w-[500px] absolute z-10 opacity-[.2] position lg:static lg:mx-auto lg:opacity-60 ml-3"
           >
-        </h1>
-        <ButtonItem>Let's Work Together</ButtonItem>
-      </div>
+            <img
+              src="~/assets/hero.png"
+              alt=""
+              class="object-cover w-full h-full"
+            />
+          </div>
+        </div>
+      </ContSec>
     </div>
   </div>
 </template>
-<style scoped></style>
+<style scoped>
+@media only screen and (max-width: 1024px) {
+  .position {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+</style>
