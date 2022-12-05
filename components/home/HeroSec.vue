@@ -25,7 +25,7 @@
               ><br />
               Innovative Concept
             </h1>
-            <p class="text-base lg:text-lg font-thin text-white">
+            <p class="paragraphStyle text-white">
               Sigma Solutions is a research and software develop firm that work
               on overcoming most critical challenges and identified problems in
               Bangladesh. Team work is our main strength. Our confronting

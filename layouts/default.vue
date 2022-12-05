@@ -1,5 +1,5 @@
 <template>
-  <div class="font-inter text-gray-300">
+  <div class="font-inter text-white">
     <NavbarItem />
     <Nuxt />
     <FooterSec />

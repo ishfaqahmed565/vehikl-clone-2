@@ -16,9 +16,9 @@
     border-radius:7px;
   }
   .paragraphStyle {
-    font-size: 1rem; /* 18px */
-    line-height: 1.6rem; /* 28px */
-    
+    font-size: 1rem; /* 16px */
+    line-height: 1.5rem;
+    font-weight: 100
     
   }
   .nuxt-link-active  {
