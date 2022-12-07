@@ -6,7 +6,7 @@
       clients.</template
     >
     <InfoCard
-      imgSrc="code_delivery"
+      imgSrc="delivery"
       class="bg-none"
       extraStyle="px-[0rem]"
       order="lg:order-[-1] order-1"

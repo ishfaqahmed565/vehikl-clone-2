@@ -12,7 +12,7 @@ module.exports = {
     extend: {
       colors: {
         brand: '#FF0101',
-        grayBorder: '#CC1D27',
+        grayBorder: 'rgb(55 65 81)',
       },
       fontFamily: {
         inter: ['inter'],

@@ -4,7 +4,7 @@
     <HomeBusinessInfo />
 
     <HomeClientsInfo />
-    <HomeCommunityInfo />
+
     <HomeAdvisorsInfo />
     <HomeMeetupsInfo />
     <CTASec />

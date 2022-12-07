@@ -13,7 +13,7 @@
         <InfoHeader class="items-center">Caring</InfoHeader>
 
         <div class="lg:max-w-[290px] max-w-[150px]">
-          <img src="~/assets/caring.webp" alt="" class="object-fit" />
+          <img src="~/assets/caring.png" alt="" class="object-fit" />
         </div>
       </a>
       <a
@@ -33,7 +33,7 @@
         <InfoHeader class="items-center">Delivery</InfoHeader>
 
         <div class="lg:max-w-[290px] max-w-[150px]">
-          <img src="~/assets/delivery.webp" alt="" class="object-fit" />
+          <img src="~/assets/delivery.png" alt="" class="object-fit" />
         </div>
       </a>
     </div>

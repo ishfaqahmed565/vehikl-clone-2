@@ -15,17 +15,15 @@
         <div class="grid gap-5">
           <InfoHeader>Developer</InfoHeader>
           <p class="paragraphStyle">
-            As a new member of our team, you will help build the interfaces,
-            behaviours, architecture, and code quality of premium web and mobile
-            applications. You will follow projects for new and existing clients
-            from start to finish while working closely with those clients as
-            well as your team. At Vehikl, mob programming is a big part of our
-            processes and how we work. You will mob daily with other developers
-            on our team to produce clean code with efficiency and finesse.
+            As a new member of our team, your responsibilities will be to work
+            with Technology Team, introduce cutting edge technologies to enhance
+            business process, Strategic Technology planning align technology
+            with business needs, Design and develop software, Make the business
+            process effective and efficient.
           </p>
           <p class="paragraphStyle italic">
-            We're currently only hiring applicants that reside in Ontario,
-            Canada.
+            We're currently only hiring applicants that reside in Dhaka,
+            Bangladesh
           </p>
           <ButtonItem class="w-full lg:w-max">View Postion</ButtonItem>
         </div>

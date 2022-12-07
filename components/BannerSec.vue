@@ -8,7 +8,7 @@ watchEffect(async () => {
   src.value = (
     await import(
       /*
-@vite-ignore */ `~/assets/${props.imgSrc}.webp`
+@vite-ignore */ `~/assets/${props.imgSrc}.png`
     )
   ).default
 })

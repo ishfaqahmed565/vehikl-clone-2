@@ -34,7 +34,9 @@
               Processing (NLP), Machine Learning (ML), Artificial Intelligence
               (AI) and GSM & Telecom solutions.
             </p>
-            <ButtonItem class="mx-auto lg:mx-0">Work with us</ButtonItem>
+            <ButtonItem href="/contact" class="mx-auto lg:mx-0"
+              >Work with us</ButtonItem
+            >
           </div>
           <div
             class="w-[400px] md:w-[450px] lg:w-[500px] absolute z-10 opacity-[.2] position lg:static lg:mx-auto lg:opacity-60 ml-3"
