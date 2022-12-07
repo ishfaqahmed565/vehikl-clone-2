@@ -6,7 +6,7 @@
     <img
       src="~/assets/candid-9.png"
       alt=""
-      class="w-full object-cover min-h-[90vh] invert"
+      class="w-full object-cover min-h-[90vh] invert-1"
     />
     <div
       class="absolute bg-gradient-to-t from-black via-gray-900/[.70] to-transparent w-full grid items-center justify-center bg-gray-900 h-full bg-opacity-60"

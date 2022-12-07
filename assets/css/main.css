@@ -42,3 +42,6 @@
   --tw-backdrop-saturate: ;
   --tw-backdrop-sepia: ;
 }
+.invert-1{
+  filter: invert(100%);
+}
