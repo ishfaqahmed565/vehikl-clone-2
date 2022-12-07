@@ -12,7 +12,7 @@ const props = defineProps({
 const src = ref()
 watchEffect(async () => {
   src.value = (
-    await import(/* @vite-ignore */ `~/assets/${props.imgSrc}.webp`)
+    await import(/* @vite-ignore */ `~/assets/${props.imgSrc}.png`)
   ).default
 })
 </script>
@@ -29,7 +29,9 @@ watchEffect(async () => {
         </p>
       </div>
       <div class="img flex justify-center w-full" :class="order">
-        <img :src="src" class="lg:w-full w-[240px] object-cover" alt="" />
+        <div class="max-w-[400px]">
+          <img :src="src" class="w-full h-full object-cover" alt="" />
+        </div>
       </div>
     </div>
   </SectionContainer>
